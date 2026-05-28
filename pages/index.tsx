@@ -50,37 +50,77 @@ export default function Home() {
 
 <div className="mt-6 flex flex-col sm:flex-row gap-4">
   <a
+    href="/episodes/the-game-is-real"
+    className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-full transition"
+  >
+    Listen / Episode Page
+  </a>
+
+  <a
     href="/blog/the-game-is-real"
     className="inline-block bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 rounded-full transition"
   >
     Read the Blog
   </a>
 
- 
+  <a
+    href="https://discord.gg/6qXaEr7mnB"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block border border-yellow-500 text-yellow-400 hover:bg-yellow-500 hover:text-black font-bold py-2 px-6 rounded-full transition"
+  >
+    Join the Discord
+  </a>
 </div>
+<section className="mt-16 grid gap-6 md:grid-cols-3 max-w-5xl w-full">
+  <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6 text-left">
+    <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
+      Episode
+    </p>
+    <h2 className="mt-3 text-2xl font-bold">The Game Is Real</h2>
+    <p className="mt-3 text-gray-300">
+      Gaming was the tutorial. Money is the resource system. Policy is the patch notes.
+    </p>
+    <a
+      href="/episodes/the-game-is-real"
+      className="mt-5 inline-block text-yellow-400 font-bold hover:text-yellow-300"
+    >
+      Listen / Show Notes →
+    </a>
+  </div>
 
-        <a
-          href="https://discord.gg/6qXaEr7mnB"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-6 inline-block bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 rounded-full transition"
-        >
-          Join the Discord
-        </a>
+  <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6 text-left">
+    <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
+      Blog
+    </p>
+    <h2 className="mt-3 text-2xl font-bold">Read the Article</h2>
+    <p className="mt-3 text-gray-300">
+      The written version of Episode 1, built for sharing and expanding the idea.
+    </p>
+    <a
+      href="/blog/the-game-is-real"
+      className="mt-5 inline-block text-yellow-400 font-bold hover:text-yellow-300"
+    >
+      Read the Blog →
+    </a>
+  </div>
 
-        <form className="mt-10 w-full max-w-sm">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="w-full p-3 rounded-l-md text-black"
-          />
-          <button
-            type="submit"
-            className="bg-red-600 hover:bg-red-700 text-white font-bold p-3 rounded-r-md"
-          >
-            Notify Me
-          </button>
-        </form>
+  <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6 text-left">
+    <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
+      Shorts
+    </p>
+    <h2 className="mt-3 text-2xl font-bold">MaxDelta Briefs</h2>
+    <p className="mt-3 text-gray-300">
+      Short-form clips pulling the strongest lines from the show.
+    </p>
+    <p className="mt-5 text-gray-500 font-bold">
+      Coming Soon
+    </p>
+  </div>
+</section>
+        
+
+     
 
         <footer className="mt-20 text-sm text-gray-500">
           © 2025 The MaxDelta Hour • Site by RenderNorth
