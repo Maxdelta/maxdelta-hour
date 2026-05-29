@@ -109,20 +109,23 @@ export default function Home() {
   </div>
 
   <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6 text-left flex flex-col h-full">
-    <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
-      Shorts
-    </p>
-    <h2 className="mt-3 text-2xl font-bold">MaxDelta Briefs</h2>
-    <p className="mt-3 text-gray-300">
-      Short-form clips pulling the strongest lines from the show.
-    </p>
-    <a
-      href="/briefs"
-      className="mt-auto pt-6 inline-block text-yellow-400 font-bold hover:text-yellow-300"
-    >
-      View the Briefs →
-    </a>
-  </div>
+  <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
+    Watch
+  </p>
+
+  <h2 className="mt-3 text-2xl font-bold">Video Library</h2>
+
+  <p className="mt-3 text-gray-300">
+    MaxDelta Briefs, episode clips, and video content from the show.
+  </p>
+
+  <a
+    href="/videos"
+    className="mt-auto pt-6 inline-block text-yellow-400 font-bold hover:text-yellow-300"
+  >
+    Watch Videos →
+  </a>
+</div>
 </section>
         
 
