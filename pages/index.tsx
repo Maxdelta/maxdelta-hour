@@ -73,7 +73,7 @@ export default function Home() {
   </a>
 </div>
 <section className="mt-16 grid gap-6 md:grid-cols-3 max-w-5xl w-full">
-  <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6 text-left">
+  <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6 text-left flex flex-col h-full">
     <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
       Episode
     </p>
@@ -83,13 +83,13 @@ export default function Home() {
     </p>
     <a
       href="/episodes/the-game-is-real"
-      className="mt-5 inline-block text-yellow-400 font-bold hover:text-yellow-300"
+      className="mt-auto pt-6 inline-block text-yellow-400 font-bold hover:text-yellow-300"
     >
-      Listen / Show Notes →
+      Episode / Show Notes →
     </a>
   </div>
 
-  <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6 text-left">
+  <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6 text-left flex flex-col h-full">
     <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
       Blog
     </p>
@@ -99,13 +99,13 @@ export default function Home() {
     </p>
     <a
       href="/blog/the-game-is-real"
-      className="mt-5 inline-block text-yellow-400 font-bold hover:text-yellow-300"
+      className="mt-auto pt-6 inline-block text-yellow-400 font-bold hover:text-yellow-300"
     >
       Read the Blog →
     </a>
   </div>
 
-  <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6 text-left">
+  <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6 text-left flex flex-col h-full">
     <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
       Shorts
     </p>
@@ -113,9 +113,12 @@ export default function Home() {
     <p className="mt-3 text-gray-300">
       Short-form clips pulling the strongest lines from the show.
     </p>
-    <p className="mt-5 text-gray-500 font-bold">
-      Coming Soon
-    </p>
+    <a
+      href="/briefs"
+      className="mt-auto pt-6 inline-block text-yellow-400 font-bold hover:text-yellow-300"
+    >
+      View the Briefs →
+    </a>
   </div>
 </section>
         
