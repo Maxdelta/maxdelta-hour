@@ -5,6 +5,7 @@ const briefs = [
   {
     title: "Politics Is Patch Notes",
     tag: "Brief 001",
+    video: "/videos/brief-001-politics-is-patch-notes.mp4",
     description:
       "Politics is not just people yelling on TV. It is the update log for real life.",
     script: [
@@ -24,6 +25,7 @@ const briefs = [
   {
     title: "Money Is Armor",
     tag: "Brief 002",
+    video: "/videos/brief-002-money-is-armor.mp4",
     description:
       "Money is not everything, but it changes how hard life hits when the RNG goes bad.",
     script: [
@@ -45,6 +47,7 @@ const briefs = [
   {
     title: "Stop Playing Like an NPC",
     tag: "Brief 003",
+    video: "/videos/brief-003-stop-playing-like-an-npc.mp4",
     description:
       "NPCs react. Players read the map, study incentives, and ask who benefits.",
     script: [
@@ -120,6 +123,15 @@ export default function MaxDeltaBriefs() {
                 <p className="mt-4 text-gray-300 text-lg leading-8">
                   {brief.description}
                 </p>
+                {brief.video && (
+            <video
+               controls
+                  className="mt-6 w-full rounded-xl border border-gray-800 bg-black"
+  >
+            <source src={brief.video} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          )}
 
                 <div className="mt-6 rounded-xl border border-gray-800 bg-black p-5">
                   <p className="text-sm uppercase tracking-wide text-gray-500 mb-4">
