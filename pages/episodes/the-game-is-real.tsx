@@ -38,22 +38,23 @@ export default function EpisodeOneTheGameIsReal() {
 
           <section className="rounded-2xl border border-gray-800 bg-gray-950 p-6 md:p-8 mb-12">
             <p className="text-sm uppercase tracking-wide text-gray-500">
-              Podcast Audio
+            Podcast Audio
             </p>
 
             <h2 className="mt-2 text-2xl font-bold text-white">
-              Audio Coming Soon
+                Listen to Episode 1
             </h2>
 
             <p className="mt-4 text-gray-300 leading-7">
-              This episode page is ready for the podcast audio. Once Episode 1
-              is recorded, the audio player will go here.
+            The Game Is Real. Gaming was the tutorial. Money is the resource system.
+            Policy is the patch notes. Culture is the story mode.
             </p>
 
-            <div className="mt-6 rounded-xl bg-black border border-gray-800 p-5 text-gray-500">
-              Audio player placeholder
-            </div>
-          </section>
+                <audio controls className="mt-6 w-full">
+                <source src="/audio/episode-1-the-game-is-real.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+                </audio>
+            </section>
 
           <section className="grid md:grid-cols-2 gap-6 mb-12">
             <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6">

@@ -34,16 +34,26 @@ export default function TheGameIsReal() {
               Gaming was the tutorial. Money is the resource system. Policy is
               the patch notes. Culture is the story mode.
             </p>
-
             <div className="mt-8 rounded-xl border border-gray-800 bg-gray-950 p-6">
-              <p className="text-sm uppercase tracking-wide text-gray-500">
-                Episode 1
-              </p>
-              <p className="mt-2 text-gray-300">
-                This article expands the core idea behind the first episode of{" "}
-                <span className="font-bold text-white">The MaxDelta Hour</span>.
-              </p>
-            </div>
+  <p className="text-sm uppercase tracking-wide text-gray-500">
+    Episode 1 Audio
+  </p>
+
+  <h2 className="mt-2 text-2xl font-bold text-white">
+    Listen to The Game Is Real
+  </h2>
+
+  <p className="mt-3 text-gray-300">
+    Listen to the full Episode 1 audio, then read the expanded article below.
+  </p>
+
+  <audio controls className="mt-6 w-full">
+    <source src="/audio/episode-1-the-game-is-real.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+            
           </header>
 
           <article className="space-y-10 text-lg leading-8 text-gray-200">
