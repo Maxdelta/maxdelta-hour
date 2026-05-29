@@ -134,23 +134,63 @@ export default function EpisodeOneTheGameIsReal() {
             </div>
           </section>
 
-          <div className="mt-16 flex flex-col sm:flex-row justify-center gap-4 border-t border-gray-800 pt-8">
-            <Link
-              href="/blog/the-game-is-real"
-              className="inline-block bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-full transition text-center"
-            >
-              Read the Blog Post
-            </Link>
+          <div className="mt-16 grid gap-6 md:grid-cols-3 border-t border-gray-800 pt-8">
+  <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6">
+    <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
+      Read
+    </p>
+    <h2 className="mt-3 text-2xl font-bold text-white">
+      The Full Article
+    </h2>
+    <p className="mt-3 text-gray-300">
+      Read the expanded written version of Episode 1.
+    </p>
+    <Link
+      href="/blog/the-game-is-real"
+      className="mt-5 inline-block text-yellow-400 font-bold hover:text-yellow-300"
+    >
+      Read the Blog →
+    </Link>
+  </div>
 
-            <a
-              href="https://discord.gg/6qXaEr7mnB"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block border border-yellow-500 text-yellow-400 hover:bg-yellow-500 hover:text-black font-bold py-3 px-6 rounded-full transition text-center"
-            >
-              Join the Discord
-            </a>
-          </div>
+  <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6">
+    <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
+      Clips
+    </p>
+    <h2 className="mt-3 text-2xl font-bold text-white">
+      MaxDelta Briefs
+    </h2>
+    <p className="mt-3 text-gray-300">
+      Short-form scripts pulled from the strongest ideas in this episode.
+    </p>
+    <Link
+      href="/briefs"
+      className="mt-5 inline-block text-yellow-400 font-bold hover:text-yellow-300"
+    >
+      View the Briefs →
+    </Link>
+  </div>
+
+  <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6">
+    <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
+      Community
+    </p>
+    <h2 className="mt-3 text-2xl font-bold text-white">
+      Join the Discord
+    </h2>
+    <p className="mt-3 text-gray-300">
+      Jump into the MaxDelta community and follow future episodes.
+    </p>
+    <a
+      href="https://discord.gg/6qXaEr7mnB"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-5 inline-block text-yellow-400 font-bold hover:text-yellow-300"
+    >
+      Join the Discord →
+    </a>
+  </div>
+</div>
         </div>
       </main>
     </>
