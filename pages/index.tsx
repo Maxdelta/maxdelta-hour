@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
+    
     <>
       <Head>
   <title>The MaxDelta Hour</title>
@@ -24,11 +25,13 @@ export default function Home() {
 
 
       <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-4 text-center">
-        <img
-          src="/logo.png"
-          alt="MaxDelta Logo"
-          className="w-40 h-40 mb-6"
-        />
+       <img
+  src="/logo-main.png"
+  alt="The MaxDelta Hour Logo"
+  className="w-56 md:w-72 mb-8"
+/>
+
+
 
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight">
           The MaxDelta Hour
