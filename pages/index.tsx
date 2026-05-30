@@ -120,7 +120,7 @@ export default function Home() {
   </p>
 
   <a
-    href="/watch"
+    href="/videos"
     className="mt-auto pt-6 inline-block text-yellow-400 font-bold hover:text-yellow-300"
   >
     Watch Videos →
