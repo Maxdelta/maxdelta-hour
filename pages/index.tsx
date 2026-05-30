@@ -75,6 +75,60 @@ export default function Home() {
     Join the Discord
   </a>
 </div>
+<div className="mt-6 flex flex-wrap justify-center gap-3 text-sm">
+  <a
+    href="YOUR_YOUTUBE_LINK_HERE"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-300 hover:text-red-500 font-semibold transition"
+  >
+    YouTube
+  </a>
+
+  <span className="text-gray-700">•</span>
+
+  <a
+    href="YOUR_TIKTOK_LINK_HERE"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-300 hover:text-white font-semibold transition"
+  >
+    TikTok
+  </a>
+
+  <span className="text-gray-700">•</span>
+
+  <a
+    href="YOUR_X_LINK_HERE"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-300 hover:text-yellow-400 font-semibold transition"
+  >
+    X
+  </a>
+
+  <span className="text-gray-700">•</span>
+
+  <a
+    href="YOUR_TWITCH_LINK_HERE"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-300 hover:text-purple-400 font-semibold transition"
+  >
+    Twitch
+  </a>
+
+  <span className="text-gray-700">•</span>
+
+  <a
+    href="https://discord.gg/6qXaEr7mnB"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-300 hover:text-yellow-400 font-semibold transition"
+  >
+    Discord
+  </a>
+</div>
 <section className="mt-16 grid gap-6 md:grid-cols-3 max-w-5xl w-full">
   <div className="rounded-2xl border border-gray-800 bg-gray-950 p-6 text-left flex flex-col h-full">
     <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
