@@ -5,7 +5,7 @@ const briefs = [
   {
     title: "Politics Is Patch Notes",
     tag: "Brief 001",
-    video: "/videos/brief-001-politics-is-patch-notes.mp4",
+    video: "/media/brief-001-politics-is-patch-notes.mp4",
     description:
       "Politics is not just people yelling on TV. It is the update log for real life.",
     script: [
@@ -25,7 +25,7 @@ const briefs = [
   {
     title: "Money Is Armor",
     tag: "Brief 002",
-    video: "/videos/brief-002-money-is-armor.mp4",
+    video: "/media/brief-002-money-is-armor.mp4",
     description:
       "Money is not everything, but it changes how hard life hits when the RNG goes bad.",
     script: [
@@ -47,7 +47,7 @@ const briefs = [
   {
     title: "Stop Playing Like an NPC",
     tag: "Brief 003",
-    video: "/videos/brief-003-stop-playing-like-an-npc.mp4",
+    video: "/media/brief-003-stop-playing-like-an-npc.mp4",
     description:
       "NPCs react. Players read the map, study incentives, and ask who benefits.",
     script: [
