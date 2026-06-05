@@ -43,28 +43,28 @@ export default function Home() {
         </p>
 
         <p className="mt-8 text-yellow-400 text-lg font-semibold uppercase tracking-wide">
-  Episode 1: The Game Is Real
+  Episode 2: The Patch Notes Are Real
 </p>
 
 <p className="mt-3 text-gray-300 max-w-xl">
-  Gaming was the tutorial. Money is the resource system. Policy is the patch notes.
-  Culture is the story mode.
+  The rules are changing in real time. Elections, AI, money, platforms,
+  culture, and trust. The meta changed.
 </p>
 
 <div className="mt-6 flex flex-col sm:flex-row gap-4">
   <a
-    href="/episodes/the-game-is-real"
+    href="/episodes/the-patch-notes-are-real"
     className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-full transition"
   >
-    Listen / Episode Page
+    Listen to Episode 2
   </a>
 
-  <a
-    href="/blog/the-game-is-real"
-    className="inline-block bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 rounded-full transition"
-  >
-    Read the Blog
-  </a>
+ <a
+  href="/episodes"
+  className="inline-block bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 rounded-full transition"
+>
+  All Episodes
+</a>
 
   <a
     href="https://discord.gg/6qXaEr7mnB"
@@ -77,7 +77,7 @@ export default function Home() {
 </div>
 <div className="mt-6 flex flex-wrap justify-center gap-3 text-sm">
   <a
-    href="YOUR_YOUTUBE_LINK_HERE"
+    href="https://www.youtube.com/@maxdelta97"
     target="_blank"
     rel="noopener noreferrer"
     className="text-gray-300 hover:text-red-500 font-semibold transition"
@@ -88,7 +88,7 @@ export default function Home() {
   <span className="text-gray-700">•</span>
 
   <a
-    href="YOUR_TIKTOK_LINK_HERE"
+    href="https://www.tiktok.com/@maxdelta_briefs"
     target="_blank"
     rel="noopener noreferrer"
     className="text-gray-300 hover:text-white font-semibold transition"
@@ -99,18 +99,7 @@ export default function Home() {
   <span className="text-gray-700">•</span>
 
   <a
-    href="YOUR_X_LINK_HERE"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-gray-300 hover:text-yellow-400 font-semibold transition"
-  >
-    X
-  </a>
-
-  <span className="text-gray-700">•</span>
-
-  <a
-    href="YOUR_TWITCH_LINK_HERE"
+    href="https://www.twitch.tv/maxdeltaa"
     target="_blank"
     rel="noopener noreferrer"
     className="text-gray-300 hover:text-purple-400 font-semibold transition"
@@ -134,15 +123,15 @@ export default function Home() {
     <p className="text-yellow-400 text-sm font-bold uppercase tracking-wide">
       Episode
     </p>
-    <h2 className="mt-3 text-2xl font-bold">The Game Is Real</h2>
-    <p className="mt-3 text-gray-300">
-      Gaming was the tutorial. Money is the resource system. Policy is the patch notes.
-    </p>
-    <a
-      href="/episodes/the-game-is-real"
+    <h2 className="mt-3 text-2xl font-bold">The Patch Notes Are Real</h2>
+<p className="mt-3 text-gray-300">
+  The rules are changing in real time. Elections, AI, money, platforms, and trust.
+</p>
+<a
+  href="/episodes/the-patch-notes-are-real"
       className="mt-auto pt-6 inline-block text-yellow-400 font-bold hover:text-yellow-300"
     >
-      Episode / Show Notes →
+      Latest Episode →
     </a>
   </div>
 
