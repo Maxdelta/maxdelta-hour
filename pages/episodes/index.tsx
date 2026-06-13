@@ -3,12 +3,20 @@ import Link from "next/link";
 
 const episodes = [
   {
+    number: "Episode 3",
+    title: "Build Your Base",
+    description:
+      "If the game is real, and the patch notes are real, then you need a base. A website, a skill stack, a money plan, a community, and a place you control.",
+    href: "/episodes/build-your-base",
+    status: "Newest Episode",
+  },
+  {
     number: "Episode 2",
     title: "The Patch Notes Are Real",
     description:
       "Elections, AI, money, culture, platforms, trust, and the rules changing while people sleep.",
     href: "/episodes/the-patch-notes-are-real",
-    status: "Newest Episode",
+    status: "Episode 2",
   },
   {
     number: "Episode 1",
