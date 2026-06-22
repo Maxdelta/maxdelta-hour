@@ -135,6 +135,14 @@ export default function Home() {
               >
                 View the Archive
               </Link>
+              <a
+                href="https://open.spotify.com/show/033CNPXSjIfZtnyT1hUrwt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full transition"
+              >
+                Follow on Spotify
+              </a>
             </div>
           </section>
 
