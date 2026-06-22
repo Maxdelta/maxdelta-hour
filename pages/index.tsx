@@ -8,7 +8,7 @@ export default function Home() {
         <title>The MaxDelta Hour</title>
         <meta
           name="description"
-          content="The MaxDelta Hour — politics, gaming, money, culture, technology, and real life systems."
+          content="The MaxDelta Hour - politics, gaming, money, culture, technology, and real-life systems."
         />
       </Head>
 
@@ -32,16 +32,16 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 text-xl text-gray-300 max-w-3xl mx-auto leading-8">
-              Gaming was the tutorial. The game is real. The patch notes are
-              real. And now it is time to build your base.
+              The game is real. The patch notes are real. Build your base.
+              Read the map.
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link
-                href="/episodes/build-your-base"
+                href="/episodes/the-fog-of-war"
                 className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition"
               >
-                Listen to Episode 3
+                Listen to Episode 4
               </Link>
 
               <Link
@@ -71,7 +71,7 @@ export default function Home() {
                 YouTube
               </a>
 
-              <span className="text-gray-700">•</span>
+              <span className="text-gray-700">|</span>
 
               <a
                 href="https://www.tiktok.com/@maxdelta_briefs"
@@ -82,7 +82,7 @@ export default function Home() {
                 TikTok
               </a>
 
-              <span className="text-gray-700">•</span>
+              <span className="text-gray-700">|</span>
 
               <a
                 href="https://www.twitch.tv/maxdeltaa"
@@ -93,7 +93,7 @@ export default function Home() {
                 Twitch
               </a>
 
-              <span className="text-gray-700">•</span>
+              <span className="text-gray-700">|</span>
 
               <a
                 href="https://discord.gg/6qXaEr7mnB"
@@ -112,32 +112,29 @@ export default function Home() {
             </p>
 
             <h2 className="mt-3 text-3xl md:text-5xl font-extrabold">
-              Episode 3: Build Your Base
+              Episode 4: The Fog of War
             </h2>
 
             <p className="mt-5 text-gray-300 text-lg leading-8 max-w-4xl">
-              If the game is real, and the patch notes are real, then you need a
-              base. A website. A skill stack. A money plan. A community. A place
-              where your work lives that is not completely controlled by someone
-              else&apos;s algorithm.
+              How to think when everyone wants you angry. Rage, context, AI,
+              team loyalty, bad intel, and the discipline to slow down long
+              enough to read the map.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
-                href="/episodes/build-your-base"
+                href="/episodes/the-fog-of-war"
                 className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition"
               >
                 Listen Now
               </Link>
 
-              <a
-                href="https://www.rendernorth.com/"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/episodes"
                 className="border border-gray-700 hover:border-yellow-500 text-white font-bold py-3 px-6 rounded-full transition"
               >
-                Sponsor: RenderNorth
-              </a>
+                View the Archive
+              </Link>
             </div>
           </section>
 
@@ -149,7 +146,9 @@ export default function Home() {
               <p className="text-yellow-400 font-bold uppercase tracking-wide text-sm">
                 Archive
               </p>
+
               <h3 className="mt-3 text-2xl font-bold">All Episodes</h3>
+
               <p className="mt-3 text-gray-400 leading-7">
                 Start from Episode 1 or catch up on every episode of The
                 MaxDelta Hour.
@@ -163,7 +162,9 @@ export default function Home() {
               <p className="text-yellow-400 font-bold uppercase tracking-wide text-sm">
                 Video Library
               </p>
+
               <h3 className="mt-3 text-2xl font-bold">Watch the Briefs</h3>
+
               <p className="mt-3 text-gray-400 leading-7">
                 Short-form MaxDelta Briefs pulled from the bigger ideas in the
                 show.
@@ -179,7 +180,9 @@ export default function Home() {
               <p className="text-yellow-400 font-bold uppercase tracking-wide text-sm">
                 Sponsor
               </p>
+
               <h3 className="mt-3 text-2xl font-bold">RenderNorth</h3>
+
               <p className="mt-3 text-gray-400 leading-7">
                 Custom websites in three days or less for businesses, creators,
                 gamers, streamers, and side hustles.

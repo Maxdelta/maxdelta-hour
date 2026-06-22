@@ -3,12 +3,20 @@ import Link from "next/link";
 
 const episodes = [
   {
+    number: "Episode 4",
+    title: "The Fog of War",
+    description:
+      "How to think when everyone wants you angry. Rage, context, AI, team loyalty, and learning to read the map before you move.",
+    href: "/episodes/the-fog-of-war",
+    status: "Newest Episode",
+  },
+  {
     number: "Episode 3",
     title: "Build Your Base",
     description:
       "If the game is real, and the patch notes are real, then you need a base. A website, a skill stack, a money plan, a community, and a place you control.",
     href: "/episodes/build-your-base",
-    status: "Newest Episode",
+    status: "Episode 3",
   },
   {
     number: "Episode 2",
@@ -45,7 +53,7 @@ export default function Episodes() {
             href="/"
             className="inline-block text-yellow-400 hover:text-yellow-300 font-semibold mb-10"
           >
-            ← Back to The MaxDelta Hour
+            Back to The MaxDelta Hour
           </Link>
 
           <header className="text-center mb-14">
@@ -59,7 +67,7 @@ export default function Episodes() {
 
             <p className="mt-6 text-xl text-gray-300 max-w-3xl mx-auto">
               Every episode of The MaxDelta Hour — politics, gaming, money,
-              culture, technology, and real life systems.
+              culture, technology, and real-life systems.
             </p>
           </header>
 
