@@ -3,12 +3,20 @@ import Link from "next/link";
 
 const episodes = [
   {
+    number: "Episode 5",
+    title: "Adjust Fire: Michigan's Housing Crisis",
+    description:
+      "Michigan keeps talking about building more housing, but the real problem is deeper than supply alone. Vacant homes, local control, infrastructure, affordability, and why fixing what we already have may matter more than building everywhere.",
+    href: "/episodes/adjust-fire-michigan-housing",
+    status: "Newest Episode",
+  },
+  {
     number: "Episode 4",
     title: "The Fog of War",
     description:
       "How to think when everyone wants you angry. Rage, context, AI, team loyalty, and learning to read the map before you move.",
     href: "/episodes/the-fog-of-war",
-    status: "Newest Episode",
+    status: "Episode 4",
   },
   {
     number: "Episode 3",

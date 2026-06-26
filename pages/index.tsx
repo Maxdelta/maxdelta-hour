@@ -38,10 +38,10 @@ export default function Home() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link
-                href="/episodes/the-fog-of-war"
+                href="/episodes/adjust-fire-michigan-housing"
                 className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition"
               >
-                Listen to Episode 4
+                Listen to Episode 5
               </Link>
 
               <Link
@@ -112,18 +112,20 @@ export default function Home() {
             </p>
 
             <h2 className="mt-3 text-3xl md:text-5xl font-extrabold">
-              Episode 4: The Fog of War
+              Episode 5: Adjust Fire: Michigan&apos;s Housing Crisis
             </h2>
 
             <p className="mt-5 text-gray-300 text-lg leading-8 max-w-4xl">
-              How to think when everyone wants you angry. Rage, context, AI,
-              team loyalty, bad intel, and the discipline to slow down long
-              enough to read the map.
+              Michigan keeps talking about building more housing, but the real
+              problem is deeper than supply alone. Vacant homes, local control,
+              infrastructure, affordability, development incentives, and why
+              fixing what we already have may matter more than building
+              everywhere.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
-                href="/episodes/the-fog-of-war"
+                href="/episodes/adjust-fire-michigan-housing"
                 className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition"
               >
                 Listen Now
@@ -135,6 +137,7 @@ export default function Home() {
               >
                 View the Archive
               </Link>
+
               <a
                 href="https://open.spotify.com/show/033CNPXSjIfZtnyT1hUrwt"
                 target="_blank"
