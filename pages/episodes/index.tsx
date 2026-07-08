@@ -3,12 +3,20 @@ import Link from "next/link";
 
 const episodes = [
   {
+  number: "Episode 6",
+  title: "Michigan's $260 Million Empty Field",
+  description:
+    "Michigan spent hundreds of millions preparing a Genesee County megasite for a massive semiconductor project. The original anchor project fell through, but the site is still being developed and marketed. So what level of transparency and accountability should come with public risk?",
+  href: "/episodes/michigans-260-million-empty-field",
+  status: "Newest Episode",
+},
+  {
     number: "Episode 5",
     title: "Adjust Fire: Michigan's Housing Crisis",
     description:
       "Michigan keeps talking about building more housing, but the real problem is deeper than supply alone. Vacant homes, local control, infrastructure, affordability, and why fixing what we already have may matter more than building everywhere.",
     href: "/episodes/adjust-fire-michigan-housing",
-    status: "Newest Episode",
+    status: "Episode 5",
   },
   {
     number: "Episode 4",

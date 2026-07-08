@@ -38,10 +38,10 @@ export default function Home() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link
-                href="/episodes/adjust-fire-michigan-housing"
+                href="/episodes/michigans-260-million-empty-field"
                 className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition"
               >
-                Listen to Episode 5
+                Listen to Episode 6
               </Link>
 
               <Link
@@ -112,23 +112,19 @@ export default function Home() {
             </p>
 
             <h2 className="mt-3 text-3xl md:text-5xl font-extrabold">
-              Episode 5: Adjust Fire: Michigan&apos;s Housing Crisis
+                Episode 6: Michigan&apos;s $260 Million Empty Field
             </h2>
 
             <p className="mt-5 text-gray-300 text-lg leading-8 max-w-4xl">
-              Michigan keeps talking about building more housing, but the real
-              problem is deeper than supply alone. Vacant homes, local control,
-              infrastructure, affordability, development incentives, and why
-              fixing what we already have may matter more than building
-              everywhere.
+                Michigan invested hundreds of millions preparing a Genesee County megasite for a proposed semiconductor project. The original anchor project fell through, but the bigger story isn't what happened to one company—it's what taxpayers deserve to know when public money is put at risk.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
-                href="/episodes/adjust-fire-michigan-housing"
-                className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition"
+                  href="/episodes/michigans-260-million-empty-field"
+                  className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition"
               >
-                Listen Now
+                  Listen Now
               </Link>
 
               <Link
